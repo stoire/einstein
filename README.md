@@ -1,5 +1,5 @@
 # Click
-The current library provides a compact library for applications which the "play-pause-stop" action is required.
+Imagine pause and resume life activities whenever do we wish and change situations at our will. Although in reality not possible, in a virtual world it may be possible. Said so, this library provides a library to control the time flow, resuming, pausingand  stopping programmed activities.
 
 ## Supported Hardware
 Docs needed.
