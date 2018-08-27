@@ -1,0 +1,2 @@
+# einstein
+"Time is nothing more than a mere ilusion" - EINSTEIN, Albert. Despite of that we, humans, keep using this variable to measure how events progress across the universe. Control the time would be fascinating in real world, but it is unfortunately not possible. In a controlled world, however, may be possible.  The current library provides a compact library for applications which the "play-pause-stop" action is required.
