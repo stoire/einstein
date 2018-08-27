@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# pio and vscode variables
+.vscode/
+.pioenvs/
+.travis.yml
+platformio.ini
