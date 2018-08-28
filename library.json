@@ -1,0 +1,18 @@
+{
+	"name": "Einstein",
+	"version": "1.0.0",
+	"description": "A library for handling time",
+	"keywords": "conversions, arduino, time",
+	"authors": [{
+		"maintainer": true,
+		"name": "Bruno Peixoto",
+		"email": "brunolnetto@gmail.com"
+	}],
+	"repository": {
+		"url": "https://github.com/brunolnetto/Ultrasonic-HC-SR04.git",
+		"type": "git"
+	},
+	"license": "mpich2 License",
+	"frameworks": "arduino",
+	"platforms": "*"
+}
