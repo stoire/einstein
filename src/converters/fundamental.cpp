@@ -53,3 +53,20 @@ String stringify_time(Time t) {
            lzeros(t.s, NUM_PLACES_S) + ":" + 
            lzeros(t.ms, NUM_PLACES_MS);
 }
+
+String now(bool absolute){
+/* 
+ * Provides either absolute or relative time as string 
+ * Entrada:
+ *  [bool]: absolute time flag
+ * Saida:
+ *  [String]: absolute ? "h:min:s:ms" : "dd:mm:yy ww h:min:s:ms"
+ */ 
+    // TO FIX: Support multiple time modules for absolute time
+    if(absolute){
+        return stringify_time(ms2time(millis()));
+    } else {
+        return stringify_time(ms2time(millis()));
+    }
+
+}

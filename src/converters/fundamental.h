@@ -11,5 +11,6 @@ DivisionResult min2h(uint64_t);
 
 Time ms2time(uint64_t);
 String stringify_time(Time);
+String now(bool = false)
 
 #endif
