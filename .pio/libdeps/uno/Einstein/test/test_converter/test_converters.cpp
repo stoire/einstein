@@ -1,5 +1,5 @@
 #include "unity.h"
-#include <Arduino.h>
+#include "Arduino.h"
 
 #include "converters/fundamental.h"
 #include "algebra/operands.h"

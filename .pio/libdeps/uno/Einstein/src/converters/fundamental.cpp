@@ -17,15 +17,15 @@ DivisionResult min2h(uint64_t min){
 
 Time ms2time(uint64_t ms){
 /*
- * Converts time in [ms] for data
+ * Converte tempo em [ms] para data
  * Entrada:
- *  [int]: time in [ms]
+ *  [int]: tempo em [ms]
  * Saida:
  *  [String]: "h:min:s:ms"
  */
 
-    // TODO: Use time module to convert absolute time 
-DivisionResult division_result = ms2s(ms);
+    // TODO: Utilzar módulo de tempo para verificar horário absoluto 
+    DivisionResult division_result = ms2s(ms);
     ms = division_result.remainder;
     
     division_result = s2min(division_result.quocient);

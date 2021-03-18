@@ -1,0 +1,17 @@
+{
+    "name": "arduinoUnity",
+    "keywords": "test, unittest",
+    "description": "Port of the unity testing library for arduino",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/BlackEdder/arduinoUnity"
+    },
+    "version": "0.0.2",
+    "frameworks": "arduino",
+    "platforms": [
+        "espressif8266"
+    ],
+    "authors": [
+        { "name": "Edwin van Leeuwen" }
+    ]
+}
