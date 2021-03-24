@@ -1,3 +1,7 @@
+*.dblite
+*.elf
+*.hex
+
 # Prerequisites
 *.d
 

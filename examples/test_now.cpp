@@ -1,11 +1,14 @@
 #include <Arduino.h>
 #include <converters/fundamental.h>
 
+long int TIME_SPAN = 1000;
+long int BAUD_RATE = 9600;
+
 void setup(){
-	Serial.begin(9600);
+	Serial.begin(BAUD_RATE);
 }
 
 void loop() {
-	Serial.println(now(false));
-	delay(500);
+	Serial.println(now());
+	delay(TIME_SPAN);
 }
