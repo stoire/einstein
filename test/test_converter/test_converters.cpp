@@ -1,10 +1,10 @@
-#include "unity.h"
 #include <Arduino.h>
+#include <unity.h>
 
-#include "converters/fundamental.h"
-#include "algebra/operands.h"
-#include "algebra/operations.h"
-#include "helpers/str_modifiers.h"
+#include <converters/fundamental.h>
+#include <algebra/operands.h>
+#include <algebra/operations.h>
+#include <helpers/str_modifiers.h>
 
 // --- ms2s ---
 void test_ms2s_lt_quocient(void) {
